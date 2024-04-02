@@ -1,0 +1,1211 @@
+.boxProduto-maisVendida {
+  float: left;
+  width: 100%;
+  text-align: center;
+  background: #8a2be2;
+  color: #FFFFFF;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+.pill-codoacodo {
+	background-color: #3483fa;
+ text-transform:none;
+ padding:6px 10px;
+ font-size:10px;
+ -webkit-border-radius:4px;
+ border-radius:4px;
+ margin-top:6px;
+ line-height: 1;
+ font-weight: 600;
+ display: inline-block;
+ color: #fff;
+}
+
+.topo{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #4267b2;
+}
+
+.topoBlack{
+  background: #000000;
+}
+
+.safe{
+  width: 20px;
+  margin-top: -5px;
+}
+.t1{
+  float: left;
+  width: 100%;
+  text-align: center;
+  font-size: 36px;
+  color: #FFFFFF;
+}
+
+.t1 span{
+  color: #ffa901;
+  font-size: 40px;
+}
+
+.yellow{
+  background: #fffbe5;
+}
+
+.produtosBorda{
+  margin-bottom: 15px;
+}
+.boxProduto{
+  float: left;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+.boxProduto-nome{
+  float: left;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 5px;
+  font-weight: 600;
+  color: green;
+}
+.boxProduto-v1{
+  float: left;
+  width: 100%;
+  font-size: 14px;
+  text-decoration: line-through;
+  color: #858585;
+  height: 21px;
+}
+.boxProduto-v2{
+  float: left;
+      width: 100%;
+      font-size: 30px;
+      font-weight: 600;
+      line-height: 1;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      color: red;
+}
+.boxProduto-v3{
+  float: left;
+  width: 100%;
+  font-size: 12px;
+  color: #a1a1a1;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.boxProduto-botaoComprar{
+  float: left;
+  width: 100%;
+  background: #1bca53;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 20px 0;
+  margin-top: 10px;
+}
+.boxProduto:hover .boxProduto-botaoComprar{
+  background: #15a142;
+}
+
+
+.boxProduto-desconto{
+  height: 70px;
+  width: 70px;
+  background: #b40000;
+  color: #FFFFFF;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+  z-index: 3;
+}
+.boxProduto-desconto-t1{
+  float: left;
+  width: 100%;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2;
+  padding-top: 10px;
+}
+.boxProduto-desconto-t2{
+  float: left;
+  width: 100%;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.boxProduto-desconto.lancamento .boxProduto-desconto-t1{
+  font-size: 18px;
+  padding-top: 14px;
+}
+.boxProduto-desconto.lancamento .boxProduto-desconto-t2{
+  font-size: 11px;
+}
+
+
+.boxProduto-destaque{
+  height: 75px;
+  width: 70px;
+  background: #8a2be2;
+  color: #FFFFFF;
+  position: absolute;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  top: 35px;
+  right: 0;
+  z-index: 2;
+}
+.boxProduto-destaque-t1{
+  float: left;
+  width: 100%;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.2;
+  padding-top: 35px;
+}
+
+@media (max-width: 767px){
+  .boxProduto-destaque{
+    height: 70px;
+    width: 50px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    top: 25px;
+    right: 5px;
+    z-index: 2;
+  }
+  .boxProduto-destaque-t1{
+    float: left;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.2;
+    padding-top: 30px;
+  }
+}
+
+
+
+
+.boxProduto-restam{
+  float: left;
+  width: 100%;
+  font-size: 12px;
+  color: #a1a1a1;
+  padding-top: 5px;
+  text-align: center;
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+  .boxProduto{
+    margin-bottom: 30px;
+  }
+}
+
+
+
+@media (max-width: 767px){
+  .boxProduto-left{
+    position: relative;
+    width: 45%;
+  }
+  .boxProduto-right{
+    position: relative;
+    width: 55%;
+  }
+  .small-flex{
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.backgroundTimer{
+  background: #000000;
+}
+
+.timer{
+  float: left;
+  width: 100%;
+  background: #000000;
+  padding: 10px;
+  color: #FFFFFF;
+  text-align: center;
+}
+.timer-tTopo{
+  float: left;
+  width: 100%;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.timer-box{
+  display: inline-block;
+}
+.timer-square{
+  float: left;
+  background: #b40000;
+  width: 100px;
+  color: #FFFFFF;
+  clear: both;
+  padding: 6px 0;
+}
+.timer-t1{
+  font-size: 32px;
+}
+.timer-t2{
+  float: left;
+  clear: both;
+  width: 100%;
+}
+
+
+@media (max-width: 640px){
+  .topo{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+  }
+  .t1{
+    font-size: 22px;
+    line-height: 1.1;
+  }
+  .t1 span{
+    font-size: 26px;
+    line-height: 1.1;
+  }
+  .boxProduto{
+    padding: 5px;
+  }
+  .boxProduto-v1{
+    font-size: 12px;
+  }
+  .boxProduto-v2{
+    font-size: 20px;
+  }
+  .boxProduto-botaoComprar{
+    font-size: 15px;
+    line-height: 1.2;
+    padding: 10px 5px;
+  }
+  .boxProduto-desconto{
+    height: 50px;
+    width: 50px;
+    top: 5px;
+    right: 5px;
+  }
+  .boxProduto-desconto.lancamento{
+    height: 70px;
+    width: 70px;
+  }
+  .boxProduto-desconto-t1{
+    font-size: 16px;
+    padding-top: 8px;
+  }
+  .boxProduto-desconto-t2{
+    font-size: 12px;
+  }
+
+
+
+
+
+  .produtosBorda .columns:nth-child(1){
+    border-top: 1px solid #cccccc;
+  }
+  /* .produtosBorda .columns:nth-child(odd){
+    border-right: 1px solid #cccccc;
+  } */
+
+  /* .produtosBorda .columns .boxProduto{
+    border-bottom: 1px solid #cccccc;
+  } */
+
+  .timer{
+    padding: 5px 10px 0;
+  }
+  .timer-tTopo{
+    font-size: 18px;
+    padding-bottom: 5px;
+  }
+  .timer-t1{
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .timer-t2{
+    font-size: 14px;
+  }
+  .timer-square{
+    width: 75px;
+    height: 50px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+.preloader{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  /* background: rgba(0,0,0, 0.25); */
+  overflow: hidden;
+  z-index: 10;
+  color: #000;
+  /* display: none; */
+}
+.preloader-centro{
+  padding: 30px;
+
+  height: 240px;
+  width: 240px;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+}
+.preloader-centro:before{
+  content: '';
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+.preloader-mensagem{
+  padding-bottom: 10px;
+  font-weight: 500;
+  float: left;
+  width: 100%;
+}
+.preloader-redir{
+  font-size: 12px;
+  float: left;
+  width: 100%;
+  padding-top: 10px;
+}
+.preloader-redir a{
+  position: relative;
+  z-index: 50;
+  font-size: 12px;
+  color: #000;
+  text-decoration: underline;
+  float: left;
+  width: 100%;
+}
+.preloader-redir a:hover{
+  text-decoration: underline;
+}
+
+
+.bandeiras{
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+.bandeiras-txt{
+  float: left;
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.bandeiras li{
+  display: inline-block;
+}
+
+
+.aviso{
+  float: left;
+  width: 100%;
+  font-size: 13px;
+}
+.aviso2{
+  float: left;
+  width: 100%;
+  font-size: 13px;
+}
+.aviso3{
+  float: left;
+  width: 100%;
+  font-size: 13px;
+  margin-bottom: 30px;
+}
+.aviso3-t{
+  padding-left: 10px;
+  float: left;
+  width: 100%;
+}
+
+
+
+
+.ps-brand-x30,.ps-brand-x40,.ps-brand-x60 {
+ display:inline-block;
+ overflow:hidden;
+ border:1px solid #eee;
+ text-indent:-5000px;
+ border-bottom-width:2px;
+ border-radius:3px;
+ box-sizing:border-box;
+ background-color:#fff
+}
+.ps-brand-x30 {
+ background-image:url(./img/brands.png);
+ display:none;
+ width:45px;
+ height:30px;
+ background-size:370px 280px
+}
+.ps-brand-x30--alelo {
+ background-position:-65px 0;
+ display:inline-block
+}
+.ps-brand-x30--amex {
+ background-position:-130px -200px;
+ display:inline-block
+}
+.ps-brand-x30--aura {
+ background-position:0 -50px;
+ display:inline-block
+}
+.ps-brand-x30--balance {
+ background-position:-65px -50px;
+ display:inline-block
+}
+.ps-brand-x30--banesecard {
+ background-position:-130px 0;
+ display:inline-block
+}
+.ps-brand-x30--banri-compras {
+ background-position:-130px -50px;
+ display:inline-block
+}
+.ps-brand-x30--banrisul {
+ background-position:0 -100px;
+ display:inline-block
+}
+.ps-brand-x30--bb {
+ background-position:-65px -100px;
+ display:inline-block
+}
+.ps-brand-x30--boleto {
+ background-position:-130px -100px;
+ display:inline-block
+}
+.ps-brand-x30--bradesco {
+ background-position:-195px 0;
+ display:inline-block
+}
+.ps-brand-x30--brasilcard {
+ background-position:-195px -50px;
+ display:inline-block
+}
+.ps-brand-x30--cabal-debito {
+ background-position:-195px -100px;
+ display:inline-block
+}
+.ps-brand-x30--cabal {
+ background-position:0 -150px;
+ display:inline-block
+}
+.ps-brand-x30--caixa {
+ background-position:-65px -150px;
+ display:inline-block
+}
+.ps-brand-x30--default {
+ background-position:-130px -150px;
+ display:inline-block
+}
+.ps-brand-x30--diners {
+ background-position:-195px -150px;
+ display:inline-block
+}
+.ps-brand-x30--elo {
+ background-position:0 -200px;
+ display:inline-block
+}
+.ps-brand-x30--fortbrasil {
+ background-position:-65px -200px;
+ display:inline-block
+}
+.ps-brand-x30--grandcard {
+ background-position:0 0;
+ display:inline-block
+}
+.ps-brand-x30--hiper {
+ background-position:-195px -200px;
+ display:inline-block
+}
+.ps-brand-x30--hipercard {
+ background-position:-260px 0;
+ display:inline-block
+}
+.ps-brand-x30--itau {
+ background-position:-260px -50px;
+ display:inline-block
+}
+.ps-brand-x30--maestro {
+ background-position:-260px -100px;
+ display:inline-block
+}
+.ps-brand-x30--mais {
+ background-position:-260px -150px;
+ display:inline-block
+}
+.ps-brand-x30--mastercard {
+ background-position:-260px -200px;
+ display:inline-block
+}
+.ps-brand-x30--personalcard {
+ background-position:0 -250px;
+ display:inline-block
+}
+.ps-brand-x30--santander {
+ background-position:-65px -250px;
+ display:inline-block
+}
+.ps-brand-x30--sodexo {
+ background-position:-130px -250px;
+ display:inline-block
+}
+.ps-brand-x30--sorocred {
+ background-position:-195px -250px;
+ display:inline-block
+}
+.ps-brand-x30--ticket {
+ background-position:-260px -250px;
+ display:inline-block
+}
+.ps-brand-x30--upbrasil {
+ background-position:-325px 0;
+ display:inline-block
+}
+.ps-brand-x30--valecard {
+ background-position:-325px -50px;
+ display:inline-block
+}
+.ps-brand-x30--visa-electron {
+ background-position:-325px -100px;
+ display:inline-block
+}
+.ps-brand-x30--visa {
+ background-position:-325px -150px;
+ display:inline-block
+}
+.ps-brand-x30--vr {
+ background-position:-325px -200px;
+ display:inline-block
+}
+.ps-brand-x30--policard {
+ background-position:-325px -250px;
+ display:inline-block
+}
+
+
+
+.ps-brand-x40 {
+ background-image:url(./img/brands.png);
+ display:none;
+ width:60px;
+ height:40px;
+ background-size:460px 340px
+ border: 1px solid;
+}
+.ps-brand-x40--alelo {
+ background-position:-80px 0;
+ display:inline-block
+}
+.ps-brand-x40--amex {
+ background-position:-160px -240px;
+ display:inline-block
+}
+.ps-brand-x40--aura {
+ background-position:0 -60px;
+ display:inline-block
+}
+.ps-brand-x40--balance {
+ background-position:-80px -60px;
+ display:inline-block
+}
+.ps-brand-x40--banesecard {
+ background-position:-160px 0;
+ display:inline-block
+}
+.ps-brand-x40--banri-compras {
+ background-position:-160px -60px;
+ display:inline-block
+}
+.ps-brand-x40--banrisul {
+ background-position:0 -120px;
+ display:inline-block
+}
+.ps-brand-x40--bb {
+ background-position:-80px -120px;
+ display:inline-block
+}
+.ps-brand-x40--boleto {
+ background-position:-160px -120px;
+ display:inline-block
+}
+.ps-brand-x40--bradesco {
+ background-position:0 -180px;
+ display:inline-block
+}
+.ps-brand-x40--brasilcard {
+ background-position:-80px -180px;
+ display:inline-block
+}
+.ps-brand-x40--cabal-debito {
+ background-position:-160px -180px;
+ display:inline-block
+}
+.ps-brand-x40--cabal {
+ background-position:-240px 0;
+ display:inline-block
+}
+.ps-brand-x40--caixa {
+ background-position:-240px -60px;
+ display:inline-block
+}
+.ps-brand-x40--default {
+ background-position:-240px -120px;
+ display:inline-block
+}
+.ps-brand-x40--diners {
+ background-position:-240px -180px;
+ display:inline-block
+}
+.ps-brand-x40--elo {
+ background-position:0 -240px;
+ display:inline-block
+}
+.ps-brand-x40--fortbrasil {
+ background-position:-80px -240px;
+ display:inline-block
+}
+.ps-brand-x40--grandcard {
+ background-position:0 0;
+ display:inline-block
+}
+.ps-brand-x40--hiper {
+ background-position:-240px -240px;
+ display:inline-block
+}
+.ps-brand-x40--hipercard {
+ background-position:-320px 0;
+ display:inline-block
+}
+.ps-brand-x40--itau {
+ background-position:-320px -60px;
+ display:inline-block
+}
+.ps-brand-x40--maestro {
+ background-position:-320px -120px;
+ display:inline-block
+}
+.ps-brand-x40--mais {
+ background-position:-320px -180px;
+ display:inline-block
+}
+.ps-brand-x40--mastercard {
+ background-position:-320px -240px;
+ display:inline-block
+}
+.ps-brand-x40--personalcard {
+ background-position:0 -300px;
+ display:inline-block
+}
+.ps-brand-x40--santander {
+ background-position:-80px -300px;
+ display:inline-block
+}
+.ps-brand-x40--sodexo {
+ background-position:-160px -300px;
+ display:inline-block
+}
+.ps-brand-x40--sorocred {
+ background-position:-240px -300px;
+ display:inline-block
+}
+.ps-brand-x40--ticket {
+ background-position:-320px -300px;
+ display:inline-block
+}
+.ps-brand-x40--upbrasil {
+ background-position:-400px 0;
+ display:inline-block
+}
+.ps-brand-x40--valecard {
+ background-position:-400px -60px;
+ display:inline-block
+}
+.ps-brand-x40--visa-electron {
+ background-position:-400px -120px;
+ display:inline-block
+}
+.ps-brand-x40--visa {
+ background-position:-400px -180px;
+ display:inline-block
+}
+.ps-brand-x40--vr {
+ background-position:-400px -240px;
+ display:inline-block
+}
+.ps-brand-x40--policard {
+ background-position:-400px -300px;
+ display:inline-block
+}
+
+
+
+.freteGratis{
+  display: inline-block;
+  text-align: center;
+  padding-top: 25px;
+  margin-bottom: 35px;
+}
+.freteGratis-img{
+  display: inline-block;
+  width: 40px;
+}
+.freteGratis-span{
+  font-size: 18px;
+  display: inline-block;
+  padding-left: 10px;
+}
+
+
+
+
+.beneficios{
+  float: left;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.beneficios-t1{
+  float: left;
+  width: 100%;
+  padding-left: 20px;
+  position: relative;
+  font-size: 14px;
+  line-height: 1.2;
+  margin-bottom: 8px;
+}
+.beneficios-t1.bold{
+  font-weight: 600;
+}
+.beneficios-t1:after{
+  content: '';
+  height: 5px;
+  width: 5px;
+  background: #666666;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 2px);
+  left: 10px;
+}
+.beneficios-ul{
+  float: left;
+  width: 100%;
+}
+
+@media (max-width: 767px){
+  .beneficios{
+    border-bottom: 1px solid #e5e5e5;
+  }
+}
+
+
+.todas{
+  float: left;
+  width: 100%;
+  background: #f2f2f2;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.todas-t1{
+  float: left;
+  width: 100%;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.todas-t2{
+  float: left;
+  width: 100%;
+  padding-left: 20px;
+  position: relative;
+  font-size: 14px;
+  line-height: 1.2;
+  margin-bottom: 8px;
+}
+.todas-t2:after{
+  content: '';
+  height: 5px;
+  width: 5px;
+  background: #666666;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 2px);
+  left: 10px;
+}
+
+
+
+.depoimentos-t1{
+  float: left;
+  width: 100%;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: #4267b2;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+.depoimentos-box{
+  padding-bottom: 5px;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+}
+
+.novidade{
+  text-align: center;
+  float: left;
+  width: 100%;
+  padding-top: 10px;
+  font-size: 24px;
+  font-weight: 600;
+  color: red;
+  text-transform: uppercase;
+  margin-bottom: -10px;
+}
+.span2{
+  font-size: 24px;
+  font-weight: 600;
+  color: green;
+  font-style: italic;
+}
+
+
+.boxWhats{
+  float: left;
+  width: 100%;
+  border: 1px solid;
+  font-size: 14px;
+}
+.boxWhats-botao{
+  position: fixed;
+  left: 5px;
+  bottom: 5px;
+  z-index: 500;
+  float: left;
+  width: auto;
+  padding: 10px;
+  background: #47c630;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgba(0,0,0, 0.25);
+}
+.boxWhats-botao:hover{
+  background: #4ea736;
+}
+
+.boxWhats-img{
+  float: left;
+  width: 30px;
+}
+
+.boxWhats-txt{
+  float: left;
+  font-size: 12px;
+  line-height: 1.3;
+  padding-left: 5px;
+  font-weight: 600;
+}
+
+.comprou{
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  z-index: 500;
+  float: left;
+  width: calc(100% - 20px);
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+
+  background: #630078;
+  color: white;
+  font-size: 13px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgba(0,0,0, 0.25);
+  overflow: hidden;
+}
+
+.comprou-left{
+  float: left;
+  width: 60px;
+}
+.comprou-right{
+  float: left;
+  width: calc(100% - 60px);
+  padding-left: 3px;
+}
+.comprou-t1{
+  line-height: 1.5;
+  float: left;
+  font-weight: 600;
+  font-size: 14px;
+}
+.comprou-t1 span{
+  font-weight: normal;
+}
+.comprou-t2{
+  float: left;
+  width: 100%;
+  line-height: 1.5;
+  float: left;
+}
+
+.comprou-t2 span{
+  font-weight: 600;
+}
+
+.comprou-t3{
+  line-height: 1.5;
+  display: block;
+  clear: both;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.comprou-fechar{
+  position: absolute;
+  right: 7px;
+  top: 2px;
+  font-weight: 600;
+  z-index: 50;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.comprou-faixa{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0%;
+  background: #f6a300;
+  animation-name: faixa;
+  animation-duration: 7s;
+}
+
+@keyframes faixa {
+  0%   {width: 0%;}
+  100% {width: 100%;}
+}
+
+
+.fullTela{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 99999;
+}
+.fullTela-box{
+  width: 300px;
+  height: auto;
+  padding: 30px 10px;
+  background: #ffa901;
+  color: #FFFFFF;
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+}
+.fullTela-t1{
+  float: left;
+  width: 100%;
+  font-size: 18px;
+}
+.fullTela-t2{
+  float: left;
+  width: 100%;
+  font-size: 22px;
+  font-weight: 600;
+}
+.fullTela-img{
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+.fullTela-img img{
+  max-width: 65%;
+}
+.fullTela-botao{
+  display: inline-block;
+  background: #018700;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 15px 50px;
+  font-weight: 600;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.fullTela-botao:hover{
+  background: #00a100;
+}
+
+.fullTela-fechar{
+  position: absolute;
+  right: -15px;
+  top: -15px;
+  background: black;
+  color: white;
+  font-weight: 600;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  border: 2px solid #ffffff;
+  z-index: 50;
+  cursor: pointer;
+}
+
+
+
+.cartaoGratis{
+  float: left;
+  width: 100%;
+}
+.cartaoGratis-box{
+  background: #f2f2f2;
+  padding: 10px;
+}
+.cartaoGratis-img{
+  float: left;
+  width: 90px;
+}
+.cartaoGratis-texto{
+  float: left;
+  width: calc(100% - 90px);
+  text-align: center;
+  font-size: 14px;
+  padding: 5px;
+}
+.cartaoGratis-t1{
+  float: left;
+  line-height: 0.9;
+  width: 100%;
+}
+.cartaoGratis-t2{
+  float: left;
+  line-height: 0.9;
+  width: 100%;
+  font-weight: 600;
+  color: red;
+  font-size: 30px;
+}
+.cartaoGratis-t3{
+  float: left;
+  line-height: 0.9;
+  width: 100%;
+}
+.cartaoGratis-t4{
+  float: left;
+  width: 100%;
+  font-size: 16px;
+  padding: 5px 0;
+  text-align: center;
+  background: #ffffff;
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  .backgroundTimer{
+    margin-bottom: 30px;
+  }
+}
+
+.dicasTopo{
+  /* margin-bottom: 50px; */
+}
+
+.dicasTopo .columns{
+  border-bottom: 1px solid #e5e5e5;
+}
+.dicasTopo .columns{
+  border-right: 1px solid #e5e5e5;
+}
+
+.boxTopo{
+  float: left;
+  width: 100%;
+  /* border: 1px solid #e5e5e5; */
+  text-align: center;
+  padding: 5px;
+}
+.boxTopo-img{
+  float: left;
+  width: 100%;
+  height: 45px;
+}
+.boxTopo-txt{
+  float: left;
+  width: 100%;
+  font-size: 12px;
+  line-height: 1.2;
+  margin-top: 3px;
+  height: 30px;
+}
+.boxTopo-t1{
+  float: left;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.2;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.boxTopo-t1 strong{
+  color: #ff9000;
+  font-size: 22px;
+}
+
+@media (min-width: 768px){
+  .dicasTopo{
+    margin-bottom: 20px;
+  }
+  .dicasTopo .columns{
+    border: 1px solid #e5e5e5;
+  }
+}
